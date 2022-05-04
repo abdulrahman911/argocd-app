@@ -1,7 +1,12 @@
 
-# Commands
+## About
 
-A brief description of what this project does and who it's for
+ArgoCD Tutorial for Beginners | GitOps CD for Kubernetes
+
+This ArgoCD crash course teaches you everything to get started with ArgoCD. ArgoCD is a GitOps continuous delivery tool that is gaining popularity in the DevOps world.
+First, you will learn what ArgoCD is and what are the common use cases or why we need ArgoCD. 
+Then, you will see how ArgoCD actually works and how it does its job.
+In the final part, we will do a hands-on demo project, where we deploy ArgoCD in Kubernetes and setup a fully automated CD pipeline for Kubernetes configuration changes to get some practical experience with ArgoCD. 
 
 ## Deployment
 
