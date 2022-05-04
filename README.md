@@ -8,6 +8,8 @@ First, you will learn what ArgoCD is and what are the common use cases or why we
 Then, you will see how ArgoCD actually works and how it does its job.
 In the final part, we will do a hands-on demo project, where we deploy ArgoCD in Kubernetes and setup a fully automated CD pipeline for Kubernetes configuration changes to get some practical experience with ArgoCD. 
 
+Credits to Nana :- https://youtu.be/MeU5_k9ssrs
+
 ## Deployment
 
 To deploy this project run
