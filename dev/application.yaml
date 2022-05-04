@@ -1,0 +1,24 @@
+apiVersion: argoproj.io/v1alpha1
+kind: Application
+metadata:
+  name: myapp-argo-application
+  namespace: argocd
+spec:
+  project: default
+
+  source: 
+    repoURL: https://github.com/abdulrahman911/argocd-app.git
+    targetRevision: HEAD
+    path: dev
+  destination:
+    server: https://kubernetes.default.svc
+    namespace: myapp
+# if the namespace not created below policy command will create it 
+  syncPolicy:
+   syncOptions:
+   - CreateNamespace=true
+
+# automated changes in cluster will rollbak
+  automated:
+    selfHeal: true
+    prune: true 
