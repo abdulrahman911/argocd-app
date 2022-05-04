@@ -17,8 +17,7 @@ spec:
   syncPolicy:
    syncOptions:
    - CreateNamespace=true
-
 # automated changes in cluster will rollbak
-  automated:
-    selfHeal: true
-    prune: true 
+   automated:
+     selfHeal: true
+     prune: true 
